@@ -1,3 +1,0 @@
-# All About Me
-
-Hello!
