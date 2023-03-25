@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- animate.css -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Cristyle P Garrard</title>
+  </head>
+  <body>
+      <!-- Image and text -->
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand animate__animated animate__jackInTheBox" href="#">
+<!--          <img src="docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
+          Cristyle P Garrard
+        </a>
+      </nav>
+      <div class="container-fluid text-center">
+          
+          <h1 class="animate__animated animate__bounce animate__delay-2s">I am a wizard!</h1>
+      <!-- BUTTONS ROW ---------------->
+        <div class="row gy-1 align-items-center justify-content-center">
+              <!-- SKILLS CARD -------->
+              <div class="col-sm px-1">
+                  <div class="card bg-warning border-info">
+                    
+                    <div class="card-body">
+                        <h3 class="card-title animate__wobble animate__animated text-info" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              SKILLS
+                        </h3>
+                    </div>
+                    
+                  </div>
+                
+              </div>
+              <!-- WORK HISTORY CARD -->
+              <div class="col-sm px-0">
+                  <div class="card" style="width: 18rem;">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title animate__wobble animate__animated">Work History</h5>
+                    </div>
+                    
+                  </div>
+                
+              </div>
+              <!-- PROJECTS CARD ------>
+              <div class="col-sm px-0">
+                  <div class="card" style="width: 18rem;">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title animate__wobble animate__animated">Projects</h5>
+                    </div>
+                    
+                  </div>
+                
+              </div>
+        </div>
+      <!-- SKILLS DROPDOWN ------------>
+          <div class="py-2 collapse" id="collapseExample">
+            <div class="card card-body bg-secondary col-3">
+                <ul class="list-group list-group-flush">
+                    <!-- JAVASCRIPT -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info" data-toggle="collapse" href="#collapseSkillsJavascript" role="button" aria-expanded="false" aria-controls="collapseSkillsJavascript">
+                            JAVASCRIPT
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsJavascript">
+                            I built an app using javascript that would load and present calls to auditors review the calls.
+                        </div>
+                        
+                    </li>
+                    <!-- PYTHON -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-warning" data-toggle="collapse" href="#collapseSkillsPython" role="button" aria-expanded="false" aria-controls="collapseSkillsPython">
+                            PYTHON
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsPython">
+                            I built several ETL pipelines and app to manage department data using Python
+                        </div>
+                    </li>
+                    <!-- GITHUB -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-success" data-toggle="collapse" href="#collapseSkillsGithub" role="button" aria-expanded="false" aria-controls="collapseSkillsGithub">
+                            GITHUB
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsGithub">
+                            I managed my own repos for my projects as well as contribut to other projects. I set up several Github organizations for various roles.
+                        </div>
+                    </li>
+                    <!-- AWD -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-danger" data-toggle="collapse" href="#collapseSkillsAws" role="button" aria-expanded="false" aria-controls="collapseSkillsAws">
+                            AWS
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsAws">
+                            I have some experience on AWS PCF. I have created a javascript app in the corporate sandbox.
+                        </div>
+                        
+                    </li>
+                    <!-- TABLEAU -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-warning" data-toggle="collapse" href="#collapseSkillsTableau" role="button" aria-expanded="false" aria-controls="collapseSkillsTableau">
+                            TABLEAU
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsTableau">
+                            As a data analyst one of my primary roles was to create and maintain tableau dashboards. However due to my programming proficiency I spent most of my time writing python.
+                        </div>
+                    </li>
+                    <!-- TERADATA -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info" data-toggle="collapse" href="#collapseSkillsTeradata" role="button" aria-expanded="false" aria-controls="collapseSkillsTeradata">
+                            TERADATA
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsTeradata">
+                            Teradata was the first sql like database system I worked with professionally. As I promoted I did need to write the occassional teradata query but used a Microsoft SQL Server for most of my queries
+                        </div>
+                        
+                    </li>
+                    <!-- SQL -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-success" data-toggle="collapse" href="#collapseSkillsSql" role="button" aria-expanded="false" aria-controls="collapseSkillsSql">
+                            SQL
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsSql">
+                            Teradata was the first sql like database system I worked with professionally. As I promoted I did need to write the occassional teradata query but used a Microsoft SQL Server for most of my queries
+                        </div>
+                    </li>
+                    <!-- BASH -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-danger" data-toggle="collapse" href="#collapseSkillsBash" role="button" aria-expanded="false" aria-controls="collapseSkillsBash">
+                            BASH
+                        </h4>
+                        <div class="py-2 collapse" id="collapseSkillsBash">
+                            I ran most of my python apps and etls on a unix server
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+      </div>
+<!-- WORK HISTORY DROPDOWN -->
+
+
+<!-- PROJECTS DROPDOWN -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+        <script type="importmap">
+        {
+          "imports": {
+            "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/esm/popper.min.js",
+            "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.esm.min.js"
+          }
+        }
+        </script>
+  </body>
+</html>
