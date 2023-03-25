@@ -1,71 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<head>
+<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- animate.css -->
+<!-- animate.css -->
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-  <!-- fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-            />
-    <!-- Bootstrap CSS -->
+        >
+<!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        >
+<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Cristyle P Garrard</title>
-  </head>
-  <body>
-      <!-- Image and text -->
-      <nav class="navbar navbar-dark bg-dark">
+</head>
+<body>
+<!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand animate__animated animate__jackInTheBox" href="#">
 <!--          <img src="docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
-          Cristyle P Garrard
+            Cristyle P Garrard
         </a>
-      </nav>
-      <div class="container-fluid text-center">
-          
-          <h1 class="animate__animated animate__bounce animate__delay-2s">I am a wizard!</h1>
-      <!-- BUTTONS ROW ---------------->
+    </nav>
+    <div class="container-fluid text-center bg-dark">
+        <!-- BUTTONS ROW ---------------->
         <div class="row gy-1 align-items-center justify-content-center">
-              <!-- SKILLS CARD -------->
-              <div class="col-sm px-1">
-                  <div class="card bg-warning border-info">
-                    
+            <!-- SKILLS CARD -------->
+            <div class="col-sm p-1">
+                <div class="card bg-warning border-white">
                     <div class="card-body">
-                        <h3 class="card-title animate__wobble animate__animated text-info" data-toggle="collapse" href="#collapseSkills" role="button" aria-expanded="false" aria-controls="collapseSkills">
-                              SKILLS
+                        <h3 class="card-title animate__wobble animate__animated text-white">
+                            Skills <i class="fa-sharp fa-solid fa-caret-down" data-toggle="collapse" href="#collapseSkills" role="button" aria-expanded="false" aria-controls="collapseSkills"></i>
                         </h3>
                     </div>
-                  </div>
-              </div>
-              <!-- WORK HISTORY CARD -->
-              <div class="col-sm px-1">
-                  <div class="card bg-warning border-info">
-                    
+                </div>
+            </div>
+            <!-- WORK HISTORY CARD -->
+            <div class="col-sm p-1">
+                <div class="card bg-success border-white">
                     <div class="card-body">
-                        <h3 class="card-title animate__wobble animate__animated text-info" data-toggle="collapse" href="#collapseWH" role="button" aria-expanded="false" aria-controls="collapseWH">
+                        <h3 class="card-title animate__wobble animate__animated text-white" >
                             Work History
+                            <i class="fa-sharp fa-solid fa-caret-down" data-toggle="collapse" href="#collapseWH" role="button" aria-expanded="false" aria-controls="collapseWH"></i>
                         </h3>
                     </div>
-                  </div>
-              </div>
-              <!-- PROJECTS CARD ------>
-              <div class="col-sm px-0">
-                  <div class="card" style="width: 18rem;">
-                    
+                </div>
+            </div>
+            <!-- PROJECTS CARD ------>
+            <div class="col-sm p-1">
+                <div class="card bg-danger border-white">
                     <div class="card-body">
-                      <h5 class="card-title animate__wobble animate__animated">Projects</h5>
+                        <h3 class="card-title animate__wobble animate__animated text-white">
+                            Projects
+                            <i class="fa-sharp fa-solid fa-caret-down" data-toggle="collapse" href="#collapseProjects" role="button" aria-expanded="false" aria-controls="collapseProjects"></i>
+                        </h3>
                     </div>
-                    
-                  </div>
-                
-              </div>
+                </div>
+            </div>
         </div>
-      <!-- SKILLS DROPDOWN ------------>
-          <div class="py-2 collapse" id="collapseSkills">
+        <!-- SKILLS DROPDOWN ------------>
+        <div class="py-2 collapse bg-warning p-2" id="collapseSkills">
             <div class="card card-body bg-secondary col-sm-12">
                 <ul class="list-group list-group-flush">
                     <!-- JAVASCRIPT -->
@@ -76,7 +73,7 @@
                         <div class="py-2 collapse" id="collapseSkillsJavascript">
                             I built an app using javascript that would load and present calls to auditors review the calls.
                         </div>
-                        
+
                     </li>
                     <!-- PYTHON -->
                     <li class="list-group-item">
@@ -104,7 +101,6 @@
                         <div class="py-2 collapse" id="collapseSkillsAws">
                             I have some experience on AWS PCF. I have created a javascript app in the corporate sandbox.
                         </div>
-                        
                     </li>
                     <!-- TABLEAU -->
                     <li class="list-group-item">
@@ -123,7 +119,6 @@
                         <div class="py-2 collapse" id="collapseSkillsTeradata">
                             Teradata was the first sql like database system I worked with professionally. As I promoted I did need to write the occassional teradata query but used a Microsoft SQL Server for most of my queries
                         </div>
-                        
                     </li>
                     <!-- SQL -->
                     <li class="list-group-item">
@@ -143,68 +138,169 @@
                             I ran most of my python apps and etls on a unix server
                         </div>
                     </li>
-                  </ul>
+                </ul>
             </div>
-          </div>
-      </div>
-<!-- WORK HISTORY DROPDOWN -->
-        <div class="py-2 collapse" id="collapseWH">
-          <div class="card card-body bg-secondary col-sm-12">
-              <ul class="list-group list-group-flush">
-                  <!-- JAVASCRIPT -->
-                  <li class="list-group-item">
-                      <h4 class="card-title text-info">
-                          Senior Business Strategy
-                      </h4>
-                      <h5>
-                          Recovery Information Management Support
-                      </h5>
-                      <p class="card-text">
-                          March 2021 - April 2022
-                      </p>
-                      <p class="card-text" data-toggle="collapse" href="#collapseWH_SBS" role="button" aria-expanded="false" aria-controls="collapseWH_SBS">
-                          Responsibilities
-                          <i class="fa-sharp fa-solid fa-caret-down"></i>
-                      </p>
-                      <div class="py-2 collapse" id="collapseWH_SBS">
-                          <ul>
-                              <li>
-                                  Developed new data pipelines in Python to streamline the flow of data from various disparate sources
-                              </li>
-                              <li>
-                                  Worked closely with management to align data & infrastructure needs with the business
-                              </li>
-                              <li>
-                                  Worked with Operations leadership to identify gaps in processes that can be solved utilizing Python, SQL  & various UNIX methodologies
-                              </li>
-                              <li>
-                                  Proposed solutions to senior leadership regarding data solutions to create roadmaps for data initiatives
-                              </li>
-                          </ul>
-                      </div>
-                      
-                  </li>
-              </ul>
-          </div>
         </div>
-
-<!-- PROJECTS DROPDOWN -->
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+        <!-- WORK HISTORY DROPDOWN -->
+        <div class="py-2 collapse bg-success p-2" id="collapseWH">
+            <div class="card card-body bg-secondary col-sm-12">
+                <ul class="list-group list-group-flush">
+                    <!-- Senior Business Strategy -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info">
+                            Senior Business Strategy
+                        </h4>
+                        <h5>
+                            Recovery Information Management Support
+                        </h5>
+                        <p class="card-text">
+                        March 2021 - April 2022
+                        </p>
+                        <p class="card-text" data-toggle="collapse" href="#collapseWH_SBS" role="button" aria-expanded="false" aria-controls="collapseWH_SBS">
+                        Responsibilities
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </p>
+                        <div class="py-2 collapse" id="collapseWH_SBS">
+                            <ul>
+                                <li>
+                                    Developed new data pipelines in Python to streamline the flow of data from various disparate sources
+                                </li>
+                                <li>
+                                    Worked closely with management to align data & infrastructure needs with the business
+                                </li>
+                                <li>
+                                    Worked with Operations leadership to identify gaps in processes that can be solved utilizing Python, SQL  & various UNIX methodologies
+                                </li>
+                                <li>
+                                    Proposed solutions to senior leadership regarding data solutions to create roadmaps for data initiatives
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- Senior Data Analyst -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info">
+                            Senior Data Analyst
+                        </h4>
+                        <h5>
+                            Card Recovery Business Strategy
+                        </h5>
+                        <p class="card-text">
+                        Feb 2020 - March 2021
+                        </p>
+                        <p class="card-text" data-toggle="collapse" href="#collapseWH_SDA" role="button" aria-expanded="false" aria-controls="collapseWH_SDA">
+                        Responsibilities
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </p>
+                        <div class="py-2 collapse" id="collapseWH_SDA">
+                            <ul>
+                                <li>
+                                    Gathered, structured & analysed data from multiple sources
+                                </li>
+                                <li>
+                                    Presented data analysis, results & recommendations to management & process owners
+                                </li>
+                                <li>
+                                   Supported the development of standard analysis, reports & dashboards
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- Quality Control Specialist -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info">
+                            Quality Control Specialist
+                        </h4>
+                        <h5>
+                            Consumer Lending & Banking Operations
+                        </h5>
+                        <p class="card-text">
+                            Jan 2019 - May 2019
+                        </p>
+                        <p class="card-text" data-toggle="collapse" href="#collapseWH_QCS" role="button" aria-expanded="false" aria-controls="collapseWH_QCS">
+                        Responsibilities
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </p>
+                        <div class="py-2 collapse" id="collapseWH_QCS">
+                            <ul>
+                                <li>
+                                    Developed various front-end systems utilizing JavaScript & HTML
+                                </li>
+                                <li>
+                                    Utilized various libraries including Bootstrap4, Query, animate.css, etc
+                                </li>
+                                <li>
+                                    Wrote custom JavaScript to give webpages the necessary functionality & user experience
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- Senior Business Process Report Coordinator -->
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info">
+                            Senior Business Process Report Coordinator
+                        </h4>
+                        <h5>
+                            Bank Operations Reporting & Analysis
+                        </h5>
+                        <p class="card-text">
+                            May 2019 - Feb 2020
+                        </p>
+                        <p class="card-text" data-toggle="collapse" href="#collapseWH_SBPRC" role="button" aria-expanded="false" aria-controls="collapseWH_SBPRC">
+                        Responsibilities
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </p>
+                        <div class="py-2 collapse" id="collapseWH_SBPRC">
+                            <ul>
+                                <li>
+                                    Built ETL pipeline sutilizing Pandas and other libraries to streamline reporting and optimize manual loan processing functions
+                                </li>
+                                <li>
+                                    Designed custom reports on an ad-hoc basis for department management
+                                </li>
+                                <li>
+                                   Engineered custom programming solutions to maximize efficiency and provide deeper insights into data
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- PROJECTS DROPDOWN -->
+        <div class="py-2 collapse bg-danger p-2" id="collapseProjects">
+            <div class="card card-body bg-secondary col-sm-12">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h4 class="card-title text-info">
+                            Project Name
+                        </h4>
+                        <p class="card-text">
+                        Project Description
+                        </p>
+                        <p class="card-text" data-toggle="collapse" href="#collapseProjects_1" role="button" aria-expanded="false" aria-controls="collapseProjects_1">
+                        Examples
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </p>
+                        <div class="py-2 collapse" id="collapseProjects_1">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
         <script type="importmap">
-        {
-          "imports": {
-            "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/esm/popper.min.js",
-            "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.esm.min.js"
-          }
-        }
+            {
+                "imports": {
+                    "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/esm/popper.min.js",
+                    "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.esm.min.js"
+                }
+            }
         </script>
-  </body>
+    </body>
 </html>
